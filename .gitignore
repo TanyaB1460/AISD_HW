@@ -5,6 +5,17 @@ target/
 
 ### IntelliJ IDEA ###
 
+.gitignore
+# конфигурация IDE
+.idea/
+# все файлы *.class
+*.class
+# все файлы внутри каталога target
+target/**
+#
+.DS_Store
+Thumbs.db
+
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
